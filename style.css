@@ -1,0 +1,84 @@
+.gradient-background {
+  background: linear-gradient(300deg, #d8a685, #dcb5ad, #ddc5e3);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+    display:flex;
+    justify-content:end;
+   
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#imgone{
+    padding:20px;
+    padding-bottom:0;
+    border-radius: 50%;
+}
+.h1{
+    display: flex;
+    justify-content:start ;
+}
+.container{
+    display: flex;
+}
+.contianer{
+  margin-top: 30px;
+  background-color: #dcb5ad;
+  display: flex;
+  justify-content: center;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer1{
+  background-color: #f50bb7;
+  display:flex;
+  justify-content: center;
+  
+}
+.footercontainer{
+  width:100%;
+  padding:70px 30px 20px;
+  color:white;
+
+}
+.socialicons{ display: flex;
+  justify-content: center;
+}
+.helo {
+  display:flex;
+  justify-content:center;
+  text-align: center ;
+}
+.ul{
+  display:flex;
+  justify-content:center
+}
+.desiner{
+  color:#111
+}
+.container{
+    justify-content:space-between;
+    gap:40px;
+}
+.mb{
+  display: flex;
+  justify-content:space-between;
+}
+.navbar{background: linear-gradient(300deg, #df8142, #dcb5ad, #f596ec);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+    display:flex;
+   
+
+}
