@@ -1,0 +1,131 @@
+
+
+.gradient-background{
+  background: linear-gradient(300deg,  #000000ac, #bcbcbc66, #000000);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.firstphoto{
+  display:flex;
+  justify-content:center;
+  margin-bottom:10px;
+  padding:10px;
+}
+div > div > img{
+  border-radius:30%;
+  margin-left: 30px;
+}
+.first{
+  justify-content: center;
+  text-align: center;
+}
+.gradient-background > h2.first{
+  display: flex;
+  justify-content:center;
+  padding-top: 10px;
+}
+.gradient-background .first{
+  color: #080808;
+}
+
+.beauty{
+    padding-top:10px;
+    display: flex;
+    justify-content:center;
+}
+.image{ border-radius: 50%;
+  
+
+}
+.title {
+  display: flex;
+  justify-content:center;
+}
+img{
+  display: flex;
+  justify-content:center;
+}
+
+
+.foot{
+background: linear-gradient(300deg,  #000000ac, #bcbcbc66, #000000);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+   padding:70px 30px 20px;
+  color:rgb(13, 13, 13);
+
+}
+  
+.desiner{
+  color:#111;
+}
+
+.navbar{background: linear-gradient(300deg,#fdfbfb, #ebedee, #c9d6ff,#fbc2eb);
+  background-size: 180% 180%;
+  animation:g radient-animation 18s ease infinite;
+   
+}
+.Neil{
+  display:flex;
+  padding-left:100px;
+  color: rgb(0, 0, 0);
+  
+}
+.container{
+  background-color:#111;
+  width:100%;
+  margin:0;
+}
+span{
+  color:white;
+}
+.bi{
+  margin-left:20px;
+  justify-content:end;
+}
+.tetx-center{
+  background-color: aqua;
+}
+#click{
+  display:flex;
+  margin-left:150px; 
+  background-color: rgb(50, 49, 49);
+  
+}
+.spn{
+  color: #000000;
+}
+.zzz .first{
+  color: rgb(5, 5, 5);
+}
+.gradient-background > div .zzz{
+  display: flex;
+  justify-content: center; 
+  padding-left:25% ;
+}
+.price{
+  display:flex;
+  justify-content: center;
+  font-weight:bold;
+  font-size:15px;
+  color:blue;
+}
+ @media(min-width:800px ){
+  .click1 {
+  padding-left:30% ;
+
+}
+
+ }
